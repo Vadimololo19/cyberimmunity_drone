@@ -1,0 +1,20 @@
+einit/drone_controller/CMakeFiles/EinitHw-kss-klog.dir/EinitHw-kss/security.psl.audit.c.o: \
+  /mnt/kos/build/einit/drone_controller/EinitHw-kss/security.psl.audit.c \
+  /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/include/kss/audit-gen-api.h \
+  /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/include/nk/types.h \
+  /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/include/nk/assert.h \
+  /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/include/nk/compiler.h \
+  /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/include/nk/inttypes.h \
+  /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/include/nk/layout.h \
+  /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/include/nk/stddef.h \
+  /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/include/nk/arena.h \
+  /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/include/nk/errno.h \
+  /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/include/nk/stand.h \
+  /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/include/kss/audit.h \
+  /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/include/kss/types.h \
+  /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/include/kss/kss.h \
+  /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/include/kss/compiler.h \
+  /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/include/kssaudit/constants.h \
+  /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/include/kssaudit/decode.h \
+  /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/include/kssaudit/machine.h \
+  /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/include/kssaudit/segment.h

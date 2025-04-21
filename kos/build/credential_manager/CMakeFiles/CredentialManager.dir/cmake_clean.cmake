@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/CredentialManager.dir/__/shared/src/initialization_interface.cpp.o"
+  "CMakeFiles/CredentialManager.dir/__/shared/src/initialization_interface.cpp.o.d"
+  "CMakeFiles/CredentialManager.dir/__/shared/src/ipc_messages_initialization.cpp.o"
+  "CMakeFiles/CredentialManager.dir/__/shared/src/ipc_messages_initialization.cpp.o.d"
+  "CMakeFiles/CredentialManager.dir/__/shared/src/ipc_messages_logger.cpp.o"
+  "CMakeFiles/CredentialManager.dir/__/shared/src/ipc_messages_logger.cpp.o.d"
+  "CMakeFiles/CredentialManager.dir/__/shared/src/ipc_messages_server_connector.cpp.o"
+  "CMakeFiles/CredentialManager.dir/__/shared/src/ipc_messages_server_connector.cpp.o.d"
+  "CMakeFiles/CredentialManager.dir/src/credential_manager.cpp.o"
+  "CMakeFiles/CredentialManager.dir/src/credential_manager.cpp.o.d"
+  "CMakeFiles/CredentialManager.dir/src/credential_manager_interface.cpp.o"
+  "CMakeFiles/CredentialManager.dir/src/credential_manager_interface.cpp.o.d"
+  "CMakeFiles/CredentialManager.dir/src/credential_manager_online.cpp.o"
+  "CMakeFiles/CredentialManager.dir/src/credential_manager_online.cpp.o.d"
+  "CMakeFiles/CredentialManager.dir/src/main.cpp.o"
+  "CMakeFiles/CredentialManager.dir/src/main.cpp.o.d"
+  "CredentialManager"
+  "CredentialManager.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/CredentialManager.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

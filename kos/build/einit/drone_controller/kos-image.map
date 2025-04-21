@@ -1,0 +1,457 @@
+
+Discarded input sections
+
+ .comment       0x0000000000000000       0x16 /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/../libexec/aarch64-kos/kos
+ .llvm_addrsig  0x0000000000000000       0x5f /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/../libexec/aarch64-kos/kos
+ .note.gnu.build-id
+                0x0000000000000000       0x18 /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/../libexec/aarch64-kos/kos
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/../libexec/aarch64-kos/kos
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000010200000                . = 0x10200000
+                0x0000000010200000                _begin = .
+                0x0000000010200000                . = ALIGN (0x1000)
+
+.text           0x0000000010200000    0x12000
+ *(.bootheader)
+ .bootheader    0x0000000010200000      0x160 /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/../libexec/aarch64-kos/kos
+                0x0000000010200000                Entry
+                0x0000000010200118                ApEntry
+ *(.text)
+ .text          0x0000000010200160    0x11d00 /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/../libexec/aarch64-kos/kos
+                0x0000000010200160                FdtGetPropertyValue
+                0x00000000102001c0                FdtWalkContainer
+                0x0000000010200260                FdtGetCpuHWId
+                0x00000000102002d0                FdtGetPropertyArrayRegionByIndex
+                0x0000000010200420                FdtGetNumberOfMemRegions
+                0x00000000102004a0                FdtGetPropertyArraySize
+                0x0000000010200520                FdtGetRegPropertyByIndex
+                0x0000000010200540                FdtGetRegProperty
+                0x0000000010200560                FdtGetAlignmentProperty
+                0x0000000010200580                FdtGetPropertyArrayValueByIndex
+                0x00000000102006c0                FdtGetSizeProperty
+                0x00000000102006e0                FdtGetAllocRangesProperty
+                0x0000000010200a80                FdtGetPropertyArrayTranslationByIndex
+                0x0000000010200b40                FdtTranslateDevMemRegionToCpuView
+                0x0000000010200c30                FdtTranslateDevMemRegionToCpuViewByNode
+                0x0000000010200e20                FdtTranslateCpuMemRegionToDevView
+                0x0000000010200ec0                FdtTranslateCpuMemRegionToDevViewByNode
+                0x0000000010201070                FdtTranslateDevMemRangeToCpuViewByIndex
+                0x00000000102011c0                FdtSearchAlias
+                0x0000000010201290                FdtGetInterruptInfo
+                0x0000000010201470                FdtWalkByCompatible
+                0x0000000010201630                FdtGetStatus
+                0x0000000010201760                IsNodeEnabled
+                0x00000000102017a0                fdt_ro_probe_
+                0x00000000102018d0                fdt_header_size_
+                0x0000000010201910                fdt_header_size
+                0x0000000010201990                fdt_check_header
+                0x0000000010201bd0                fdt_offset_ptr
+                0x0000000010201cd0                fdt_next_tag
+                0x0000000010201e30                fdt_check_node_offset_
+                0x0000000010201e70                fdt_check_prop_offset_
+                0x0000000010201eb0                fdt_next_node
+                0x0000000010201fb0                fdt_first_subnode
+                0x0000000010202090                fdt_next_subnode
+                0x0000000010202180                fdt_find_string_
+                0x0000000010202200                fdt_move
+                0x0000000010202280                fdt_address_cells
+                0x00000000102022f0                fdt_size_cells
+                0x0000000010202350                fdt_appendprop_addrrange
+                0x0000000010202590                fdt_check_full
+                0x0000000010202740                fdt_create_empty_tree
+                0x00000000102027c0                fdt_overlay_target_offset
+                0x00000000102028c0                fdt_overlay_apply
+                0x0000000010203540                fdt_get_string
+                0x00000000102036c0                fdt_string
+                0x00000000102036e0                fdt_find_max_phandle
+                0x0000000010203770                fdt_get_phandle
+                0x00000000102038d0                fdt_generate_phandle
+                0x0000000010203980                fdt_get_mem_rsv
+                0x0000000010203a50                fdt_num_mem_rsv
+                0x0000000010203af0                fdt_subnode_offset_namelen
+                0x0000000010203be0                fdt_subnode_offset
+                0x0000000010203c30                fdt_path_offset_namelen
+                0x0000000010203de0                fdt_get_alias_namelen
+                0x0000000010203ec0                fdt_path_offset
+                0x0000000010203f00                fdt_get_name
+                0x0000000010203fe0                fdt_first_property_offset
+                0x0000000010204060                fdt_next_property_offset
+                0x00000000102040e0                fdt_get_property_by_offset
+                0x00000000102041a0                fdt_get_property_namelen
+                0x00000000102043b0                fdt_get_property
+                0x0000000010204450                fdt_getprop_namelen
+                0x00000000102044d0                fdt_getprop_by_offset
+                0x00000000102045e0                fdt_getprop
+                0x00000000102046a0                fdt_get_alias
+                0x00000000102046e0                fdt_get_path
+                0x00000000102048c0                fdt_supernode_atdepth_offset
+                0x0000000010204980                fdt_node_depth
+                0x0000000010204a50                fdt_parent_offset
+                0x0000000010204b80                fdt_node_offset_by_prop_value
+                0x0000000010204cb0                fdt_node_offset_by_phandle
+                0x0000000010204d40                fdt_stringlist_contains
+                0x0000000010204de0                fdt_stringlist_count
+                0x0000000010204ef0                fdt_stringlist_search
+                0x0000000010205040                fdt_stringlist_get
+                0x0000000010205190                fdt_node_check_compatible
+                0x00000000102052c0                fdt_node_offset_by_compatible
+                0x0000000010205340                fdt_add_mem_rsv
+                0x0000000010205540                fdt_del_mem_rsv
+                0x0000000010205750                fdt_set_name
+                0x00000000102058e0                fdt_setprop_placeholder
+                0x0000000010205d20                fdt_setprop
+                0x0000000010205d80                fdt_appendprop
+                0x0000000010205f50                fdt_delprop
+                0x00000000102060a0                fdt_add_subnode_namelen
+                0x00000000102062c0                fdt_add_subnode
+                0x0000000010206310                fdt_del_node
+                0x0000000010206460                fdt_open_into
+                0x00000000102068c0                fdt_pack
+                0x0000000010206b00                fdt_strerror
+                0x0000000010206b70                fdt_create_with_flags
+                0x0000000010206c00                fdt_create
+                0x0000000010206c70                fdt_resize
+                0x0000000010206e40                fdt_add_reservemap_entry
+                0x0000000010206f40                fdt_finish_reservemap
+                0x0000000010206fa0                fdt_begin_node
+                0x0000000010207190                fdt_end_node
+                0x0000000010207270                fdt_property_placeholder
+                0x0000000010207570                fdt_property
+                0x00000000102075c0                fdt_finish
+                0x0000000010207820                fdt_setprop_inplace_namelen_partial
+                0x0000000010207890                fdt_setprop_inplace
+                0x0000000010207940                fdt_nop_property
+                0x00000000102079e0                fdt_node_end_offset_
+                0x0000000010207a30                fdt_nop_node
+                0x0000000010207b20                FillCpuCacheInfo
+                0x0000000010207bc0                BootArm64BuildCpuIdTable
+                0x0000000010207dc0                BootArm64CopyIdTable
+                0x0000000010207f10                BootArm64BuildBoardCpuIdTable
+                0x0000000010208100                BootInitMapping
+                0x0000000010208170                BootMapPages
+                0x0000000010208430                BootArchSmpSetup
+                0x0000000010208750                BootEntry
+                0x00000000102089a0                DiagConsoleInit
+                0x00000000102089c0                DiagConsoleFinit
+                0x00000000102089e0                BootSetSmpCallbacks
+                0x0000000010208a00                BootStartupSecondaryCores
+                0x0000000010208a30                BootInitSmpSoc
+                0x0000000010208a60                BootInitConsole
+                0x0000000010208af0                BootFinitConsole
+                0x0000000010208b00                BootDie
+                0x0000000010208b40                RtlOutString
+                0x0000000010208bf0                ValidateKernelImage
+                0x0000000010208cf0                PrepareKernel
+                0x0000000010209180                SetupArch
+                0x00000000102091a0                FdtInfoGetBase
+                0x0000000010209230                InitCpu
+                0x0000000010209240                ElfEntry
+                0x0000000010209280                PrepareBootloaderInfo
+                0x00000000102092c0                InitPhysMap
+                0x00000000102095d0                InitDynamicReservedMemory
+                0x0000000010209b10                PrepareMp
+                0x0000000010209b20                PrepareEntropy
+                0x0000000010209c60                BootInitEntropy
+                0x0000000010209c90                BootEntropyGetNoise
+                0x0000000010209ce0                PrepareStackGuard
+                0x0000000010209d10                SanitizeEntropy
+                0x0000000010209d30                SetupSystemTimer
+                0x0000000010209e60                GetBootloaderEntropy
+                0x0000000010209f50                ValidateFdt
+                0x0000000010209fd0                SetupInterruptController
+                0x000000001020a350                FramebufferConfigStatic
+                0x000000001020a440                PrepareFramebufferInfo
+                0x000000001020a540                BootGetVmRegionBase
+                0x000000001020a570                BootGetVmRegionEnd
+                0x000000001020a5d0                BootGetVmRegionSize
+                0x000000001020a610                BootUpdateVmRegionBase
+                0x000000001020a640                BootUpdateVmRegionSize
+                0x000000001020a6e0                CalculateAddressSpaceLayout
+                0x000000001020abd0                PrepareModules
+                0x000000001020abf0                PreparePageTables
+                0x000000001020b0e0                BootInitPeriphery
+                0x000000001020b110                BootDumpPhysMap
+                0x000000001020b130                BootCreateMapItem
+                0x000000001020b150                CheckMemorySize
+                0x000000001020b240                BootGetPfn
+                0x000000001020b2a0                PageTableGetPfn
+                0x000000001020b300                PrepareFdtInfo
+                0x000000001020b390                PrepareLoaderInfo
+                0x000000001020b3f0                PrepareRomfs
+                0x000000001020b430                PrepareTrampoline
+                0x000000001020b7b0                HalCheckCpuFeatures
+                0x000000001020b820                HalDumpCpuFeatures
+                0x000000001020b860                HalShowCpuCacheMode
+                0x000000001020b8d0                HalArmGetCurrentHwCpuNum
+                0x000000001020b8f0                HalArmGetHwCpuNum
+                0x000000001020b910                HalArmGetCurrentSwCpuNum
+                0x000000001020b930                HalGetCurrentCpu
+                0x000000001020b950                HalMakePteContent
+                0x000000001020b9b0                HalBootEnvAddValue
+                0x000000001020ba80                HalBootEnvAddPaddr
+                0x000000001020bb80                HalBootEnvAddMemRegion
+                0x000000001020bc80                HalBootEnvGetValueNext
+                0x000000001020bd70                HalGetFdtInfo
+                0x000000001020bda0                HalInitFdt
+                0x000000001020bdd0                HalSetBootSeed
+                0x000000001020be20                HalGetBootSeed
+                0x000000001020be80                HalInitHwrng
+                0x000000001020c0b0                HalInitDiag
+                0x000000001020c0e0                HalDiagSwitchState
+                0x000000001020c2d0                HalDiagGetState
+                0x000000001020c2f0                HalDiagOutToDevs
+                0x000000001020c3a0                HalDiagAddDevice
+                0x000000001020c460                HalDiagReleaseDevices
+                0x000000001020c520                HalDiagFlushDevices
+                0x000000001020c580                HalInitDiagUart
+                0x000000001020c670                HalGetUriDiagUart
+                0x000000001020c830                HalAllocPhysMem
+                0x000000001020d6f0                HalOccupyMemRegion
+                0x000000001020d700                HalFreeMemRegion
+                0x000000001020d720                HalGetMemPermByType
+                0x000000001020d810                HalGetMemRegionPerm
+                0x000000001020d930                HalGetMemRegionType
+                0x000000001020da50                HalIsPageValid
+                0x000000001020db90                HalAllocatePhysMemWithinRange
+                0x000000001020deb0                GenericTimerBootInit
+                0x000000001020dec0                GicSetupInterruptsSecurity
+                0x000000001020df70                GicInitCpuIfaceAccess
+                0x000000001020df90                GicWriteCpu
+                0x000000001020dfc0                GicReadCpu
+                0x000000001020dfe0                GicInitDistributorAccess
+                0x000000001020e000                GicGetDistributorBase
+                0x000000001020e020                GicWriteDist32
+                0x000000001020e050                GicWriteDist64
+                0x000000001020e080                GicReadDist32
+                0x000000001020e0a0                GicReadDist64
+                0x000000001020e0c0                GicBootInit
+                0x000000001020e100                MiniUartOpen
+                0x000000001020e190                MiniUartClose
+                0x000000001020e1b0                MiniUartGetChar
+                0x000000001020e200                MiniUartPutChar
+                0x000000001020e260                MiniUartFlush
+                0x000000001020e2f0                MiniUartSetInterruptMode
+                0x000000001020e340                MiniUartHasData
+                0x000000001020e370                PL01xOpen
+                0x000000001020e4c0                PL01xClose
+                0x000000001020e510                PL01xGetChar
+                0x000000001020e570                PL01xPutChar
+                0x000000001020e5b0                PL01xFlush
+                0x000000001020e630                PL01xSetInterruptMode
+                0x000000001020e680                PL01xHasData
+                0x000000001020e6b0                HalUartSelectDevice
+                0x000000001020e700                HalUartOpen
+                0x000000001020e7b0                HalUartSetInterruptMode
+                0x000000001020e7e0                HalUartFlush
+                0x000000001020e810                HalUartClose
+                0x000000001020e870                HalUartFindDeviceByName
+                0x000000001020e900                rtl_snprintf
+                0x000000001020e950                rtl_memcpy
+                0x000000001020ea20                rtl_memccpy
+                0x000000001020ea60                rtl_memmove
+                0x000000001020ebd0                rtl_memchr
+                0x000000001020ec10                rtl_memset
+                0x000000001020ecb0                rtl_memset32
+                0x000000001020ed40                rtl_memset64
+                0x000000001020edd0                rtl_memcmp
+                0x000000001020ee20                rtl_strcmp
+                0x000000001020ee70                rtl_strncmp
+                0x000000001020eec0                rtl_strcpy
+                0x000000001020ef10                rtl_strncpy
+                0x000000001020efd0                rtl_strcat
+                0x000000001020f020                rtl_strncat
+                0x000000001020f070                rtl_strchr
+                0x000000001020f0a0                rtl_strrchr
+                0x000000001020f0e0                rtl_strpbrk
+                0x000000001020f150                rtl_strspn
+                0x000000001020f1b0                rtl_strcspn
+                0x000000001020f210                rtl_strstr
+                0x000000001020f270                rtl_strlen
+                0x000000001020f2a0                rtl_strnlen
+                0x000000001020f2f0                rtl_strtok_r
+                0x000000001020f3c0                rtl_strtoull
+                0x000000001020f560                rtl_vsnprintf
+                0x00000000102101c0                RtlRandomInit
+                0x00000000102104e0                RtlRandomGet
+                0x0000000010210770                RtlRandomSeed
+                0x0000000010210890                RtlRandomMemSanitize
+                0x0000000010210d80                RtlIsRangeFallsIntoRegion
+                0x0000000010210dd0                RtlIsRangesIntersect
+                0x0000000010210e10                RtlExtractEntropy
+                0x0000000010210f50                RtlElfValidateHeader
+                0x0000000010211060                RtlElfValidateSegmentHeader
+                0x0000000010211120                RtlElfValidateSectionHeader
+                0x00000000102111d0                RtlElfValidateUnpacking
+                0x00000000102114e0                memcpy
+                0x00000000102114f0                memmove
+                0x0000000010211500                memset
+                0x0000000010211510                memcmp
+                0x0000000010211520                strcmp
+                0x0000000010211530                __assert_func
+                0x00000000102115b0                RtlPanicPrologue
+                0x00000000102115c0                RtlPanicEpilogue
+                0x00000000102115f0                panic
+                0x00000000102116a0                raise
+                0x00000000102116b0                printk
+                0x0000000010211710                coprintk
+                0x0000000010211860                rtl_vprintf
+                0x00000000102118e0                RtlCpuCacheInfoUpdateConstraints
+                0x0000000010211900                RtlCpuCacheInfoUpdateArchConstraints
+                0x0000000010211920                RtlCpuCacheInfoUpdateSizesEx
+                0x0000000010211980                RtlCpuCacheInfoUpdateSizes
+                0x00000000102119e0                RtlRelocateLoadedElfImage
+ *(.text.*)
+ *(.stub)
+                0x0000000010212000                . = ALIGN (0x1000)
+ *fill*         0x0000000010211e60      0x1a0 
+                0x0000000010212000                . = ALIGN (0x1000)
+
+.boot.text      0x0000000010212000     0x2000
+                0x0000000010212000                . = ALIGN (0x1000)
+                0x0000000010212000                __BootTextBegin = .
+ *(.boot.text)
+ .boot.text     0x0000000010212000      0x320 /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/../libexec/aarch64-kos/kos
+                0x0000000010212000                InvalidateTLB
+                0x0000000010212010                InvalidateCaches
+                0x00000000102120a0                StartKernelMp
+                0x00000000102120b0                PrepareKernelEntry
+                0x0000000010212120                StartKernel
+                0x0000000010212250                JoinSmp
+                0x0000000010213000                . = ALIGN (0x1000)
+ *fill*         0x0000000010212320      0xce0 
+                0x0000000010213000                __BootTextEnd = .
+                0x0000000010213000                . = ALIGN (0x1000)
+                0x0000000010213000                __BootTextPersistentBegin = .
+ *(.boot.text.persistent)
+ .boot.text.persistent
+                0x0000000010213000        0x8 /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/../libexec/aarch64-kos/kos
+                0x0000000010214000                . = ALIGN (0x1000)
+ *fill*         0x0000000010213008      0xff8 
+                0x0000000010214000                __BootTextPersistentEnd = .
+                0x0000000010214000                . = ALIGN (0x1000)
+                0x0000000010214000                . = ALIGN (0x1000)
+
+.boot.data      0x0000000010214000     0x7000
+                0x0000000010214000                . = ALIGN (0x1000)
+                0x0000000010214000                __BootDataBegin = .
+ *(.boot.data)
+ .boot.data     0x0000000010214000       0x20 /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/../libexec/aarch64-kos/kos
+                0x0000000010214020                . = ALIGN (0x8)
+                0x0000000010214020                __BootReleasedDataBegin = .
+                0x0000000010216020                . = (. + 0x2000)
+ *fill*         0x0000000010214020     0x2000 
+                0x0000000010217000                . = ALIGN (0x1000)
+ *fill*         0x0000000010216020      0xfe0 
+                0x0000000010217000                __BootDataEnd = .
+ *(.boot.rodata)
+ *(.boot.bss)
+ .boot.bss      0x0000000010217000       0x10 /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/../libexec/aarch64-kos/kos
+                0x0000000010217000                BootArm64CpuIdTable
+                0x0000000010217008                BootArm64CpuIdTableSize
+                0x0000000010218000                . = ALIGN (0x1000)
+ *fill*         0x0000000010217010      0xff0 
+                0x0000000010218000                __BootStackBegin = .
+ *(.boot.stack)
+ .boot.stack    0x0000000010218000     0x2c00 /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/../libexec/aarch64-kos/kos
+                0x000000001021ac00                InitialStack
+                0x000000001021b000                . = ALIGN (0x1000)
+ *fill*         0x000000001021ac00      0x400 
+                0x000000001021b000                __BootStackEnd = .
+                0x000000001021b000                . = ALIGN (0x1000)
+                0x000000001021b000                . = ALIGN (0x1000)
+
+.data           0x000000001021b000     0x4000
+ *(.data)
+ .data          0x000000001021b000     0x3fc0 /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/../libexec/aarch64-kos/kos
+                0x000000001021b000                font8x16Psf
+                0x000000001021ec80                BootKvamapInfo
+                0x000000001021ee40                uartHw
+ *(.data.rel)
+ *(.data.rel.local)
+ *(.got.plt)
+ *(.got)
+ *(.sdata)
+                0x000000001021f000                . = ALIGN (0x1000)
+ *fill*         0x000000001021efc0       0x40 
+                0x000000001021f000                . = ALIGN (0x1000)
+
+.rodata         0x000000001021f000  0x2776000
+ *(.rodata)
+ .rodata        0x000000001021f000    0xf1402 /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/../libexec/aarch64-kos/kos
+                0x000000001021f000                kernelImageBegin
+                0x000000001030f920                kernelImageEnd
+                0x000000001030f9d8                translationLevelPattern4Kb
+                0x000000001030ffd0                uartHwCount
+ *(.rodata.*)
+ .rodata.str1.1
+                0x0000000010310402     0x168e /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/../libexec/aarch64-kos/kos
+                                       0x16c9 (size before relaxing)
+ .rodata.cst32  0x0000000010311a90       0x20 /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/../libexec/aarch64-kos/kos
+ *(.data.rel.ro)
+ *(.data.rel.ro.local)
+                0x0000000010311ab0                __RodataUaccessBegin = .
+ *(.uaccess)
+                0x0000000010311ab0                __RodataUaccessEnd = .
+                0x0000000010312000                . = ALIGN (0x1000)
+ *fill*         0x0000000010311ab0      0x550 
+                0x0000000010312000                __RomfsBegin = .
+ *(.romfs)
+ .romfs         0x0000000010312000  0x2683000 /tmp/tmp.tUXrrpwhUd
+ *(.romfs.*)
+                0x0000000012995000                __RomfsEnd = .
+                0x0000000012995000                . = ALIGN (0x1000)
+                0x0000000012995000                . = ALIGN (0x1000)
+
+.reloc          0x0000000012995000        0x0
+ *(.reloc)
+                0x0000000012995000                . = ALIGN (0x0)
+                0x0000000012995000                . = ALIGN (0x1000)
+
+.note.gnu.build-id
+                0x0000000012995000        0x0
+ *(.note.gnu.build-id)
+                0x0000000012995000                . = ALIGN (0x0)
+                0x0000000012995000                . = ALIGN (0x1000)
+                0x0000000002795000                _imagesize = (. - _begin)
+                0x0000000012995000                . = ALIGN (0x1000)
+
+.bootstub       0x0000000012995000        0x0
+ *(.bootstub)
+                0x0000000012995000                . = ALIGN (0x1000)
+                0x0000000012995000                . = ALIGN (0x1000)
+
+.bss            0x0000000012995000     0xa000
+                0x0000000012995000                _BssBegin = .
+ *(.bss..page_aligned)
+ *(.dynbss)
+ *(.bss)
+ .bss           0x0000000012995000     0x9768 /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/../libexec/aarch64-kos/kos
+                0x0000000012995000                apSpinEntered
+                0x000000001299dbc0                bootLoaderArgs
+ *(COMMON)
+ *(.sbss)
+ *(.scommon)
+                0x000000001299f000                . = ALIGN (0x1000)
+ *fill*         0x000000001299e768      0x898 
+                0x000000001299f000                _BssEnd = .
+                0x000000001299f000                _end = .
+
+/DISCARD/
+ *(.discard)
+ *(.discard.*)
+
+/DISCARD/
+ *(*)
+LOAD /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/sysroot-aarch64-kos/../libexec/aarch64-kos/kos
+LOAD /tmp/tmp.tUXrrpwhUd
+LOAD /opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/toolchain/lib/clang/17/lib/kos/libclang_rt.builtins-aarch64.a
+OUTPUT(/mnt/kos/build/einit/drone_controller/kos-image elf64-littleaarch64)
+LOAD linker stubs

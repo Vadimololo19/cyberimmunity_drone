@@ -1,0 +1,2 @@
+/opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/toolchain/bin/llvm-ar qc libEinitHw-kss-klog.a "CMakeFiles/EinitHw-kss-klog.dir/EinitHw-kss/security.psl.audit.c.o"
+/opt/KasperskyOS-Community-Edition-RaspberryPi4b-wifi/toolchain/bin/llvm-ranlib libEinitHw-kss-klog.a
